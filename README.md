@@ -35,6 +35,7 @@ Adapted from [tiddlywiki_to_joplin](https://github.com/FloatingBoater/tiddlywiki
 *  Since Joplin doesn't have subtasks/subnotes, tasks which have children will be converted to a folder. If the task had any content, that data will be put into its own note as a child to the new folder, with order 1 (meaning it will show at the top of the notebook when sorting by custom order).
 
 ## Useful references:
-    [Joplin API Reference](https://joplinapp.org/api/references/rest_api/)
-    [Clickup Data Export](https://help.clickup.com/hc/en-us/articles/6310551109527-Workspace-Task-Data-Export-CSV-)
+[Joplin API Reference](https://joplinapp.org/api/references/rest_api/)
+
+[Clickup Data Export](https://help.clickup.com/hc/en-us/articles/6310551109527-Workspace-Task-Data-Export-CSV-)
 
