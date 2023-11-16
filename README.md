@@ -14,8 +14,8 @@ Adapted from [tiddlywiki_to_joplin](https://github.com/FloatingBoater/tiddlywiki
 
 ## Usage
 *  Obtain a Clickup CSV export.
-*  Edit the filename parameters below.
-*  Run this script.
+*  Edit the filename parameters defined in the script.
+*  Run the script.
 *  Check the directory of individual *.md files, each containing one Clickup task.
 *  After checking the *.md files, create a tar file of the note files - which is what a JEX file consists of:
       $ cd clickup_notes
