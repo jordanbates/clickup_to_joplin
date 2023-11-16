@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ clickup_to_joplin.py
 
-Script to convert from a CSV file exported from Clickup to Joplin notes.
+Script to convert a Clickup CSV export file into a Joplin JEX file for import.
 
 Adapted from tiddlywiki_to_joplin: https://github.com/FloatingBoater/tiddlywiki_to_joplin/
 
