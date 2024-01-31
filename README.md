@@ -25,7 +25,7 @@ Adapted from [tiddlywiki_to_joplin](https://github.com/FloatingBoater/tiddlywiki
 *  You can them import the file 'joplin_conversion.jex' into Joplin.
 *  After import, inside Joplin, you will find all your Space folders inside a clickup_notes notebook. If desired, you can drag the Space folders onto the "Notebooks" header to move them to the top level. If there are any tasks left in clickup_notes, they were probably "open" (converted) children of a "closed" (non-converted) parent task.
 
-## Notes/Caveats:
+## Notes/Caveats
 *  This script was made for my own use and is not exhaustive. Fields from the Clickup CSV export which aren't handled include attachments, priority, assignees, time related fields (sans creation date) and assignee comments.
 
 *  This script only handles CSV task export, and therefore does not support doc pages, attachments, exported views, dashboard cards, or alternative export formats.
@@ -34,7 +34,7 @@ Adapted from [tiddlywiki_to_joplin](https://github.com/FloatingBoater/tiddlywiki
 
 *  Since Joplin doesn't have subtasks/subnotes, tasks which have children will be converted to a folder. If the task had any content, that data will be put into its own note as a child to the new folder, with order 1 (meaning it will show at the top of the notebook when sorting by custom order).
 
-## Useful references:
+## Useful references
 [Joplin API Reference](https://joplinapp.org/api/references/rest_api/)
 
 [Clickup Data Export](https://help.clickup.com/hc/en-us/articles/6310551109527-Workspace-Task-Data-Export-CSV-)
